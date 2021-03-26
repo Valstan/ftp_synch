@@ -1,0 +1,38 @@
+﻿<v8msg:Message xmlns:v8msg="http://v8.1c.ru/messages">
+	<v8msg:Header>
+		<v8msg:ExchangePlan>Полный</v8msg:ExchangePlan>
+		<v8msg:To>БР</v8msg:To>
+		<v8msg:From>МИ</v8msg:From>
+		<v8msg:MessageNo>7862</v8msg:MessageNo>
+		<v8msg:ReceivedNo>13881</v8msg:ReceivedNo>
+	</v8msg:Header>
+	<v8msg:Body>
+		<v8de:Changes xmlns:v8="http://v8.1c.ru/data" xmlns:v8de="http://v8.1c.ru/dataexchange/2005/02" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+			<v8de:Signature>00fa91bf-4a38-4fe7-830d-2f265c9e251d</v8de:Signature>
+			<v8de:Config xmlns:v8md="http://v8.1c.ru/metadata/2005/08">
+				<v8de:Version>216.0</v8de:Version>
+				<v8de:Digest1>00000000000000000000000000000000</v8de:Digest1>
+				<v8de:Digest2 v2="53eadcf4967cb6186e4056edd3906fec" Extensions="0000000000000000000000000000000000000000">f45c77ac3d4aa4376b9b600e6c2d15e0</v8de:Digest2>
+			</v8de:Config>
+			<v8de:Data>
+				<InformationRegisterRecordSet.ДанныеПервичныхДокументов>
+					<Filter>
+						<Организация>fb9ec063-ac76-11e9-b2db-02553c3d626e</Организация>
+						<Документ xsi:type="DocumentRef.РасчетСебестоимостиТоваров">8dd4ca83-7a6c-11eb-b413-0c5b8f279a64</Документ>
+					</Filter>
+					<Records>
+						<Record>
+							<Организация>fb9ec063-ac76-11e9-b2db-02553c3d626e</Организация>
+							<Документ xsi:type="DocumentRef.РасчетСебестоимостиТоваров">8dd4ca83-7a6c-11eb-b413-0c5b8f279a64</Документ>
+							<Номер>3</Номер>
+							<Дата>2021-03-31T23:59:59</Дата>
+							<ДатаРегистратора>2021-03-31T23:59:59</ДатаРегистратора>
+							<НомерРегистратора>БР-00000003</НомерРегистратора>
+						</Record>
+					</Records>
+				</InformationRegisterRecordSet.ДанныеПервичныхДокументов>
+			</v8de:Data>
+		</v8de:Changes>
+		<Parameters/>
+	</v8msg:Body>
+</v8msg:Message>
