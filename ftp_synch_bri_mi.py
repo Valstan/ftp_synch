@@ -1,5 +1,4 @@
 import paramiko
-
 from lopes import ftp_synch_host, ftp_synch_port, ftp_synch_username, ftp_synch_password
 
 local_out_file = "Message_БР_МИ.xml"
