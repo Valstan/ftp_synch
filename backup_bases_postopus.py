@@ -7,7 +7,11 @@ import datetime
 local_dir = datetime.datetime.now().strftime('%m-%d_%H')
 os.makedirs(local_dir)
 
-filenames = "dbase.json", "mbase.json", "post_me_base.json"
+filenames = ("dbase.json",
+             "mbase.json",
+             "post_me_base.json",
+             "insta_photo/1.jpeg.REMOVE_ME",
+             "insta_photo/1.jpg")
 remote_dir = "/root/postopus/bases/"
 
 ssh_client = paramiko.SSHClient()
