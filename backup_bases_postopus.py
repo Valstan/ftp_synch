@@ -8,8 +8,8 @@ local_dir = datetime.datetime.now().strftime('%m-%d_%H')
 os.makedirs(local_dir)
 
 filenames = (
-    "dbase.json",
-    "mbase.json",
+    "mi.zip",
+    "dran.zip",
 )
 remote_dir = "/root/postopus/bases/"
 
